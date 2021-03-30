@@ -74,13 +74,16 @@ individual_containers,individual_containers_system{
     /* padding: 0%; */
     margin: 0%;
 }
-.message-content {
+.message-content,.sub-message-content {
     padding: 0;
     margin: 0;
-    padding-bottom: 10px;
+    padding-bottom: 2px;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
+}
+.message-content {
+    padding-bottom: 20px;
 }
 
 .message-timestamp-right {
@@ -204,6 +207,11 @@ individual_containers,individual_containers_system{
     border-radius: 10px;
     border: 1px solid #97C6E3;
     margin-left: 50%;
+}
+.mimg{
+    display:block;
+    width:100%;
+
 }
 .msimg{
     width: 40px;
